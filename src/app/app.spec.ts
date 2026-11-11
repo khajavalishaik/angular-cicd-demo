@@ -20,7 +20,5 @@ describe('App', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular-cicd-demo');
   });
-  it('demonstrates that CI blocks a failing test', () => {
-  expect(1).toBe(2);
-});
+
 });
